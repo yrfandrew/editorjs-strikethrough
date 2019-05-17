@@ -1,0 +1,43 @@
+{
+  "name": "editorjs-strikethrough",
+  "version": "0.0.1",
+  "description": "Strikethrough Tool for highlighting text-fragments for the Editor.js.",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yrfandrew/editorjs-strikethrough.git"
+  },
+  "keywords": [
+    "codex",
+    "editor",
+    "strikethrough",
+    "tool",
+    "editor.js",
+    "editorjs"
+  ],
+  "author": "Andrew Ye",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/yrfandrew/editorjs-strikethrough/issues"
+  },
+  "homepage": "https://github.com/yrfandrew/editorjs-strikethrough#readme",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
