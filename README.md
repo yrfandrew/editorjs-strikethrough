@@ -18,6 +18,11 @@ Include module at your application
 const Strikethrough = require('editorjs-strikethrough');
 ```
 
+## install via CDN
+```javascript
+  <script src="https://cdn.jsdelivr.net/npm/editorjs-strikethrough@latest"></script>
+```
+
 ### Download to your project's source dir
 
 1. Upload folder `dist` from repository
