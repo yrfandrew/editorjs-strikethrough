@@ -9,13 +9,18 @@ Strikethrough Tool for highlighting text-fragments for the [Editor.js](https://e
 Get the package
 
 ```shell
-npm i --save-dev editorjs-strikethrough
+npm i @itech-indrustries/editorjs-strikethrough
 ```
 
 Include module at your application
 
 ```javascript
-const Strikethrough = require('editorjs-strikethrough');
+const Strikethrough = require('@itech-indrustries/editorjs-strikethrough');
+```
+
+## install via CDN
+```javascript
+  <script src="https://cdn.jsdelivr.net/npm/@itech-indrustries/editorjs-strikethrough@latest"></script>
 ```
 
 ### Download to your project's source dir
