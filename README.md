@@ -1,6 +1,8 @@
+![](https://badgen.net/badge/Editor.js/v2.0/blue)
+
 # Strikethrough Tool
 
-Strikethrough Tool for highlighting text-fragments for the [Editor.js](https://editorjs.io).
+Strikethrough Tool for marking text-fragments for the [Editor.js](https://ifmo.su/editor).
 
 ## Installation
 
@@ -33,7 +35,10 @@ var editor = EditorJS({
   
   tools: {
     ...
-    strikethrough: Strikethrough,
+    strikethrough: {
+      class: Strikethrough,
+      shortcut: 'CMD+SHIFT+X',
+    },
   },
   
   ...
@@ -46,13 +51,13 @@ This Tool has no config params
 
 ## Output data
 
-Marked text will be wrapped with a `s` tag.
+Marked text will be wrapped with a `del` tag with an `cdx-strikethrough` class.
 
 ```json
 {
     "type" : "text",
     "data" : {
-        "text" : "Create a directory for your module, enter it and run <s>npm init</s> command."
+        "text" : "This is <del class='cdx-strikethrough'>test</del> text."
     }
 }
 ```
