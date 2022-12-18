@@ -32,7 +32,7 @@ Add a new Tool to the `tools` property of the Editor.js initial config.
 ```javascript
 var editor = EditorJS({
   ...
-  
+
   tools: {
     ...
     strikethrough: {
@@ -40,7 +40,7 @@ var editor = EditorJS({
       shortcut: 'CMD+SHIFT+X',
     },
   },
-  
+
   ...
 });
 ```

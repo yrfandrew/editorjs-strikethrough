@@ -1,7 +1,8 @@
 /**
  * Build styles
  */
-require('./index.css').toString();
+import './index.css';
+import { IconStrikethrough } from '@codexteam/icons'
 
 /**
  * Strikethrough Tool for the Editor.js
@@ -165,7 +166,7 @@ class Strikethrough {
      * @return {string}
      */
     get toolboxIcon() {
-        return require('./assets/strikethrough.svg').default;
+        return IconStrikethrough;
     }
 
     /**
@@ -181,4 +182,4 @@ class Strikethrough {
     }
 }
 
-module.exports = Strikethrough;
+export default Strikethrough;
